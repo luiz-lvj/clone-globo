@@ -91,9 +91,11 @@
     border-right: 1px solid #E6E6E6;
 }
 .noticias-capa{
-    border-bottom: 1px solid #E6E6E6;
     margin-right: 34px;
     padding-bottom: 13.5px;
+}
+.rodape-principal{
+    border-bottom: 1px solid #E6E6E6;
 }
 .noticias-g1{
     display: flex;
