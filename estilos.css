@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
+.body{
+    width: 1145px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    height: 103px;
+    border-bottom: 1px solid #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+}
+.g1{
+    color: #A80001;
+    font-size: 19px;
+}
+.g1:hover{
+    filter: brightness(1.2);
+}
+.ge{
+    color: #06AA48;
+    font-size: 19px;
+}
+.ge:hover{
+    filter: brightness(1.2);
+}
+.gshow{
+    color: #FF7F00;
+    font-size: 19px;
+}
+.gshow:hover{
+    filter: brightness(1.2);
+}
+.tech{
+    color: #666666;
+    font-size: 19px;
+}
+.tech:hover{
+    filter: brightness(1.2);
+}
+.videos{
+    color: #0769DE;
+    font-size: 19px;
+}
+.videos:hover{
+    filter: brightness(1.2);
+}
+.g1-claro{
+    color: #CD150B;
+}
+.g1-claro:hover{
+    filter: brightness(1.2);
+}
+.logo-desktop{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    height: 59.5px;
+    width: 96.5px;
+}
+.logo-mobile{
+    display: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.link-menu{
+    letter-spacing: -0.8px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.noticias{
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.noticias-principais{
+    border-right: 1px solid #E6E6E6;
+    width: 598.5px;
+}
+.noticias-capa{
+    border-bottom: 1px solid #E6E6E6;
+}
+.noticias-g1{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #E6E6E6;
+    margin-top: 22.5px;
+}
+.noticias-secundarias{
+    border-bottom: 1px solid #E6E6E6;
+}
+.img-secundaria{
+    width: 171px;
+    height: 96px;
+    border-radius: 4px;
+}
+.manchete{
+    text-decoration: none;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+.card-g1{
+    display: block;
+    width: 171px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+.texto-g1{
+    width: 174px;
+    text-align: left;
+}
+.noticias-esportes{
+    border-right: 1px solid #E6E6E6;
+}
+.card-secundario{
+    display: block;
+    text-align: center;
+    width: 291px;
+    margin-bottom: 30.5px;
+}
+.img-card{
+    width:235px;
+    height: 118px;
+    border-radius: 4px;
+}
+.texto-secundario{
+    width: 207px;
+    text-align: left;
+    margin-left: 35.5px;
+}
+.titulo-secundario{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.descricao-secundario{
+    display: block;
+    margin-top: 4px;
+    text-decoration: none;
+    font-size: small;
+}
+@media (max-width: 600px){
+    .body{
+        width: 100%;
+    }
+    .topo{
+        display: block;
+        height: auto;
+    }
+    .menu{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo-desktop{
+        display: none;
+    }
+    .logo-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #E6E6E6;
+    }
+    .noticias{
+        display: block;
+    }
+    .noticias-principais{
+        border-bottom: 1px solid #E6E6E6;
+        border-right: none;
+        width: 100%;
+    }
+    .noticias-capa{
+        border-bottom: none;
+    }
+    .noticias-g1{
+        border-bottom: none;
+    }
+    .card-g1{
+        display: grid;
+        grid-template-columns: 171px auto;
+        grid-gap: 5px;
+        border-top: 1px solid #E6E6E6;
+        width: 100%;
+        align-items: center;
+    }
+    .descricao-secundario{
+        font-size: medium;
+        width: auto;
+    }
+    .img-secundaria{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .texto-g1{
+        width: 100%;
+    }
+    .estender-mobile{
+        grid-column: 1 / 3;
+    }
+    .card-secundario{
+        display: grid;
+        grid-template-columns: 171px auto;
+        grid-gap: 10px;
+        width: 100%;
+        border-top: 1px solid #E6E6E6;
+        text-align: left;
+        align-items: center;
+    }
+    .img-card{
+        width: 171px;
+        height: 96px;
+    }
+    .texto-secundario{
+        width: auto;
+    }
+    .noticias-esportes{
+        border-right: none;
+    }
+}
